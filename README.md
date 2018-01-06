@@ -12,7 +12,7 @@ Resources:
 * add faint line (done)
 
 About Us:
-* Spacing between text and computer, computer needs to drop below text 
+* Spacing between text and computer, computer needs to drop below text (done)
 * Make images individual and text html so we can edit and add titles and a bio 
 * Use our instagram feed here 
 * This should work as a carousel
