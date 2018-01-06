@@ -252,6 +252,14 @@
 
 }
 
+@media only screen and (max-width: 850px) {
+
+  .resources-troubleshooting-container {
+    border-bottom: none;
+  }
+
+}
+
 @media only screen and (max-width: 960px) {
 
   .resources-support-img {

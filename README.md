@@ -9,7 +9,7 @@ Home:
 Resources:
 * Images appear pixelated (they are the provided svgs.nothing to do here)
 * Keyboard needs to scale down (done)
-* add faint line
+* add faint line (done)
 
 About Us:
 * Spacing between text and computer, computer needs to drop below text 
