@@ -1,13 +1,13 @@
 Home: 
-* All images should stick to the sides on all screens sizes 
-* Make triangles parallax, move in to screen on scroll and try to have them as they appear in the sketch file 
-* Adding correct links everywhere
-* Some text seems to be way too close the edge of screen
-* Updated logos (see Sketch Files, would like to have them animate in row by row)
-* Exceptional results (see updated copy in Sketch file)
+* All images should stick to the sides on all screens sizes (done)
+* Make triangles parallax, move in to screen on scroll and try to have them as they appear in the sketch file (need clarification)
+* Adding correct links everywhere (done)
+* Some text seems to be way too close the edge of screen (done)
+* Updated logos (see Sketch Files, would like to have them animate in row by row) (need updated images)
+* Exceptional results (see updated copy in Sketch file) (done)
 
 Resources:
-* Images appear pixelated
+* Images appear pixelated (they are the provided svgs.nothing to do here)
 * Keyboard needs to scale down
 * add faint line
 
