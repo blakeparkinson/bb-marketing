@@ -8,7 +8,7 @@ Home:
 
 Resources:
 * Images appear pixelated (they are the provided svgs.nothing to do here)
-* Keyboard needs to scale down
+* Keyboard needs to scale down (done)
 * add faint line
 
 About Us:

@@ -198,6 +198,7 @@
   position: absolute;
   right: 0;
   z-index: -1;
+  max-width: 50%;
 }
 
 .resources-support-section {
@@ -236,8 +237,11 @@
   padding-top: 155px
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
+  .resources-support-img {
+    display: none;
+  }
 
   .faq-footer-title {
     font-size: 42px;
@@ -245,4 +249,12 @@
     padding-bottom: 50px;
   }
 
+}
+
+@media only screen and (max-width: 960px) {
+
+  .resources-support-img {
+    max-width: 40%;
+  }
+  
 }
