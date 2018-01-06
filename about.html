@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backbone</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/mobile_menu_modal.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/request_demo_modal.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assets/javascripts/mobile_menu_modal.js"></script>
+    <script src="assets/javascripts/request_demo_modal.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/about.css">
+
+
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="nav-logo">
+          <img src="assets/images/logo.svg">
+        </div>
+
+        <div class="nav-buttons desktop">
+          <a href="#">Features</a>
+          <a href="#">FAQs</a>
+          <a href="#">Sign In</a>
+          <a class="js-request-demo-modal-open" href="#">REQUEST A DEMO</a>
+        </div>
+
+        <div class="nav-button mobile js-modal-open">
+          <img src="assets/images/mobile_menu_button.svg">
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu-modal">
+      <div class="mobile-menu-modal-main">
+        <div class="logo-close-container">
+          <div class="modal-logo">
+            <img src="assets/images/logo_white.svg">
+          </div>
+          <div class="modal-close js-modal-close">
+            <img src="assets/images/mobile_close.svg">
+          </div>
+        </div>
+
+        <div class="mobile-menu-modal-links">
+          <a href="#">Features</a>
+          <a href="#">FAQs</a>
+          <a href="#">Sign In</a>
+          <a href="#">Request a Demo</a>
+        </div>
+
+        <div class="mobile-menu-modal-social">
+          <img src="assets/images/linkedin_ico_white.svg">
+          <img src="assets/images/instagram_ico_white.svg">
+          <img src="assets/images/m_ico_white.svg">
+        </div>
+      </div>
+      <div class="modal-screen"></div>
+    </div>
+
+    <div class="request-demo-modal">
+      <div class="request-demo-modal-main">
+        <div class="request-demo-close-container">
+          <div class="request-demo-modal-close js-request-demo-modal-close">
+            <img src="assets/images/mobile_close.svg">
+          </div>
+        </div>
+        <div class="request-demo-header-container">
+          <div class="request-demo-logo">
+            <img src="assets/images/small_logo.svg">
+          </div>
+
+          <div class="request-demo-title">
+            See Backbone In Action
+          </div>
+
+          <div class="request-demo-subtitle desktop">
+            Fill in your information below to request a demo.
+          </div>
+        </div>
+        <form class="request-demo-modal-form" action="#" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" value="">
+
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" value="">
+
+          <label for="email">Email</label>
+          <input type="text" name="email" value="">
+
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" value="">
+
+          <label for="company">Company Name</label>
+          <input type="text" name="company" value="">
+
+          <label for="title">What is your Title?</label>
+          <input type="text" name="title" value="">
+
+          <p class="desktop">*Required Field</p>
+
+          <button class="request-demo-modal-submit" type="button" name="button">REQUEST A DEMO</button>
+        </form>
+
+      </div>
+      <div class="request-demo-modal-screen desktop js-request-demo-modal-close"></div>
+      <div class="request-demo-modal-screen mobile"></div>
+    </div>
+
+    <div class="about-main-container">
+      <div class="about-header-container">
+        <div class="about-header-title">
+          We’re Simplifying Product Creation
+        </div>
+        <div class="about-glasses-img">
+          <img src="assets/images/about/glasses.svg">
+        </div>
+      </div>
+
+      <div class="about-what-is-container">
+        <div class="about-what-is-gif desktop">
+          <img src="assets/images/about/macbook.svg">
+        </div>
+
+        <div class="about-what-is-svg mobile">
+          <img src="assets/images/about/macbook.svg">
+        </div>
+
+        <div class="about-what-is-text-section">
+          <div class="about-what-is-title">
+            <div>
+              What is Backbone?
+            </div>
+          </div>
+          <div class="about-what-is-subtitle">
+            Backbone is a next generation workflow solution that helps consumer goods companies manage the complex design and product development process from anywhere, on any device.
+          </div>
+
+          <div class="line-break">
+          </div>
+
+          <div class="about-what-is-quote">
+            “Backbone puts someone in the mindset of being able to make comments based on interactivity, rather than just saying, ‘The mock-up looks  great!’ but never thinking about how it actually works."
+          </div>
+
+          <div class="about-what-is-quote-author">
+            <div class="about-what-is-quote-author-img">
+              <img src="assets/images/about/quote_author_img5.svg">
+            </div>
+            <div class="about-what-is-quote-author-container">
+              <div class="about-what-is-quote-author-name">
+                Nora Hopkins
+              </div>
+              <div class="about-what-is-quote-author-company">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="about-meet-team-container">
+        <div class="about-meet-team-ball">
+          <img src="assets/images/about/ball.svg" alt="">
+        </div>
+        <div class="about-meet-team-pingpong">
+          <img src="assets/images/about/pingpong.svg" alt="">
+        </div>
+        <div class="about-meet-team-title">
+          Meet Our Team
+        </div>
+        <div class="about-meet-team-subtitle">
+          With offices located in Boulder, New York, and San Francisco, our team has a diverse set of skills and talents — we all share the goal to help brands make better products.
+        </div>
+        <div class="about-meet-team-image">
+          <img src="assets/images/about/team.png" alt="">
+        </div>
+      </div>
+
+      <div class="about-investors-container">
+        <div class="about-investors-title">
+          Our Investors
+        </div>
+        <div class="about-investors-subtitle">
+          Backbone is funded by leading investors who invested in companies such as InVision, Michael Kors, Dollar Shave Club, SpaceX, & AngelList.
+        </div>
+        <div class="about-investors-img">
+          <img src="assets/images/about/investors.svg" alt="">
+        </div>
+      </div>
+
+      <div class="about-advisors-container">
+        <div class="about-advisors-title">
+          Our Advisors
+        </div>
+        <div class="about-advisors-subtitle">
+          Backbone is funded by leading investors who invested in companies such as InVision, Michael Kors, Dollar Shave Club, SpaceX, & AngelList.
+        </div>
+        <div class="about-advisors-img">
+          <img src="assets/images/about/advisors.svg" alt="">
+        </div>
+      </div>
+
+      <div class="about-join-container">
+        <div class="about-join-gif desktop">
+          <img src="assets/images/about/join_team.png">
+        </div>
+
+        <div class="about-join-svg mobile">
+          <img src="assets/images/about/join_team.png">
+        </div>
+
+        <div class="about-join-text-section">
+          <div class="about-join-title">
+            Join the Team
+          </div>
+          <div class="about-join-subtitle">
+            We’re a small team redefining product making. We’re looking for hard-working, passionate people to join our team to take our platform to the next level.
+          </div>
+          <div class="current-openings desktop">
+            <p>Current openings</p>
+            <img src="assets/images/link_ico.svg">
+          </div>
+
+          <div class="line-break">
+          </div>
+
+          <div class="about-join-quote">
+            “I love working for a company that fosters innovation, not only for our clients, but within the team itself. Working side by side with such a talented team of individuals, I am privileged to learn something new every day."
+          </div>
+
+          <div class="about-join-quote-author">
+            <div class="about-join-quote-author-img">
+              <img src="assets/images/about/quote_author_img6.png">
+            </div>
+            <div class="about-join-quote-author-container">
+              <div class="about-join-quote-author-name">
+                Harrison Eaton, Digital Marketing Associate
+              </div>
+              <div class="about-join-quote-author-company">
+                Backbone
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="about-press-container">
+        <div class="about-press-lamp">
+          <img src="assets/images/about/lamp.svg">
+        </div>
+        <div class="about-press-title">
+          Backbone Press
+        </div>
+        <div class="about-press-subtitle">
+          “The combined experience of Backbone cofounders Matthew Klein, who worked for several fashion trade show companies, and Andrew Klein, a past designer at Ralph Lauren and Tommy Hilfiger, equipped the Kleins’ with deeper insights into the requisite tools for speedy and seamless product development”
+        </div>
+        <div class="current-openings view-article desktop">
+          <p>View Article</p>
+          <img src="assets/images/link_ico.svg">
+        </div>
+        <div class="about-press-img">
+          <img src="assets/images/about/press.svg" alt="">
+        </div>
+      </div>
+
+      <div class="about-cover-container">
+        <div class="about-cover-text-section">
+          <div class="about-cover-title">
+            Want to Cover Backbone?
+          </div>
+          <div class="about-cover-subtitle">
+            For press coverage please send all requests to press@backboneplm.com.
+          </div>
+          <div class="current-openings download-presskit desktop">
+            <p>Download Our Preskit</p>
+            <img src="assets/images/link_ico.svg">
+          </div>
+        </div>
+        <div class="about-cover-img">
+          <img src="assets/images/about/camera.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <div class="footer-logo-links-container">
+        <div class="footer-logo">
+          <img src="assets/images/logo.svg">
+        </div>
+
+        <div class="footer-links-container">
+          <div class="footer-links-col-1">
+            <a href="#">About Us</a>
+            <a href="#">Team</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-links-col-2">
+            <a href="#">Resources</a>
+            <a href="#">FAQs</a>
+            <a href="#">Guides</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="footer-links-col-3">
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-links-col-4">
+            <a href="#">Sign In</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-request-demo mobile js-request-demo-modal-open">
+        REQUEST A DEMO
+      </div>
+
+      <div class="footer-social-links-container desktop">
+        <div class="footer-terms">
+          <a href="#">Terms & Privacy</a>
+        </div>
+
+        <div class="footer-social-icons">
+          <img src="assets/images/facebook_ico.svg">
+          <img src="assets/images/instagram_ico.svg">
+          <img src="assets/images/twitter_ico.svg">
+          <img src="assets/images/linkedin_ico.svg">
+          <img src="assets/images/m_ico.svg">
+          <img src="assets/images/peace_ico.svg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

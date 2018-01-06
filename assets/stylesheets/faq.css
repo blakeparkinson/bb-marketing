@@ -1,0 +1,155 @@
+.faq-main-container,
+.faq-questions-answers-container,
+.faq-question-list,
+.faq-single-question-container,
+.faq-footer,
+.faq-question-list-desktop,
+.faq-answer-desktop {
+  flex-direction: column;
+}
+
+.faq-single-question-container,
+.faq-single-question-title {
+  width: 100%;
+}
+
+.faq-single-question-answer {
+  display: none;
+  width: 85%;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+
+
+.faq-main-container {
+  padding-top: 50px;
+  max-width: 1280px;
+  width: 85%;
+}
+
+.faq-title {
+  font-size: 24px;
+  font-weight: 500;
+  width: 200px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.faq-question-tri {
+  padding: 0 20px;
+  transition: all 0.2s ease;
+}
+
+.faq-question-title {
+  width: 80%;
+  padding: 50px 0;
+  border-top: 1px solid #F0F3F5;
+  cursor: pointer;
+}
+
+.faq-question-title:hover {
+  text-decoration: underline;
+}
+
+.faq-question-tri {
+
+}
+
+.faq-contact-us {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 16px;
+  width: 131px;
+  justify-content: center;
+  border-radius: 3px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(86,205,252);
+  color: white;
+  cursor: pointer;
+}
+
+.faq-contact-us:active,
+.faq-contact-us:hover {
+  opacity: 0.8;
+}
+
+.faq-footer-title {
+  font-size: 24px;
+  width: 200px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .faq-title {
+    font-size: 60px;
+    width: 600px;
+    font-weight: 300;
+  }
+
+  .faq-questions-answers-desktop-container {
+    align-items: flex-start;
+    margin-top: 45px;
+    width: 100%;
+  }
+
+  .faq-question-list-desktop {
+    flex: 0.4;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .faq-answer-desktop {
+    flex: 0.6;
+    align-items: flex-start;
+  }
+
+  .faq-single-question-title-desktop {
+    width: 60%;
+    font-size: 20px;
+    color: #A5BCCC;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .faq-single-question-title-desktop:hover {
+    border-left: 6px solid #88DDFF;
+    color: black;
+  }
+
+  .selected-question {
+    border-left: 6px solid #88DDFF;
+    color: black;
+  }
+
+  .faq-answer-desktop-title {
+    font-size: 42px;
+    margin-bottom: 50px;
+    width: 100%;
+
+  }
+
+  .faq-answer-desktop-text {
+    font-size: 16px;
+    font-weight: 100;
+    width: 100%;
+  }
+
+  .faq-footer {
+    padding-top: 100px;
+  }
+
+  .faq-single-anwer-title-desktop {
+    display: none;
+  }
+
+  .faq-footer-title {
+    font-size: 42px;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+}

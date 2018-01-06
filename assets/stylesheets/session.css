@@ -1,0 +1,54 @@
+.session-main-container {
+  max-width: 1280px;
+  width: 100%;
+  padding: 200px 0;
+  justify-content: center;
+}
+
+.session-main-inner-container {
+  padding: 50px;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid #A5BCCC;
+  border-radius: 5px;
+  align-items: flex-start;
+}
+
+.session-title {
+  font-size: 72px;
+  padding-bottom: 40px;
+}
+
+.session-subtitle {
+  font-size: 48px;
+  color: #91A5B3;
+  padding-bottom: 60px;
+
+}
+
+.session-from {
+  width: 100%;
+}
+
+.session-from input {
+  border-bottom: 1px solid #A5BCCC;
+  max-width: 100%;
+  width: 300px; */
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.session-from input::placeholder {
+  color: #A5BCCC;
+}
+
+.sigin-button {
+  margin: 0;
+}
+
+.session-forgot {
+  font-size: 14px;
+  color: #A0BDCE;
+  text-decoration: underline;
+  padding-top: 25px;
+}

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backbone</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/navbar.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/mobile_menu_modal.css">
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/request_demo_modal.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="assets/javascripts/mobile_menu_modal.js"></script>
+    <script src="assets/javascripts/request_demo_modal.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/resources.css">
+
+
+  </head>
+  <body>
+    <div class="navbar-container">
+      <div class="navbar">
+        <div class="nav-logo">
+          <img src="assets/images/logo.svg">
+        </div>
+
+        <div class="nav-buttons desktop">
+          <a href="#">Features</a>
+          <a href="#">FAQs</a>
+          <a href="#">Sign In</a>
+          <a class="js-request-demo-modal-open" href="#">REQUEST A DEMO</a>
+        </div>
+
+        <div class="nav-button mobile js-modal-open">
+          <img src="assets/images/mobile_menu_button.svg">
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu-modal">
+      <div class="mobile-menu-modal-main">
+        <div class="logo-close-container">
+          <div class="modal-logo">
+            <img src="assets/images/logo_white.svg">
+          </div>
+          <div class="modal-close js-modal-close">
+            <img src="assets/images/mobile_close.svg">
+          </div>
+        </div>
+
+        <div class="mobile-menu-modal-links">
+          <a href="#">Features</a>
+          <a href="#">FAQs</a>
+          <a href="#">Sign In</a>
+          <a href="#">Request a Demo</a>
+        </div>
+
+        <div class="mobile-menu-modal-social">
+          <img src="assets/images/linkedin_ico_white.svg">
+          <img src="assets/images/instagram_ico_white.svg">
+          <img src="assets/images/m_ico_white.svg">
+        </div>
+      </div>
+      <div class="modal-screen"></div>
+    </div>
+
+    <div class="request-demo-modal">
+      <div class="request-demo-modal-main">
+        <div class="request-demo-close-container">
+          <div class="request-demo-modal-close js-request-demo-modal-close">
+            <img src="assets/images/mobile_close.svg">
+          </div>
+        </div>
+        <div class="request-demo-header-container">
+          <div class="request-demo-logo">
+            <img src="assets/images/small_logo.svg">
+          </div>
+
+          <div class="request-demo-title">
+            See Backbone In Action
+          </div>
+
+          <div class="request-demo-subtitle desktop">
+            Fill in your information below to request a demo.
+          </div>
+        </div>
+        <form class="request-demo-modal-form" action="#" method="post">
+          <label for="fname">First Name</label>
+          <input type="text" name="fname" value="">
+
+          <label for="lname">Last Name</label>
+          <input type="text" name="lname" value="">
+
+          <label for="email">Email</label>
+          <input type="text" name="email" value="">
+
+          <label for="phone">Phone Number</label>
+          <input type="text" name="phone" value="">
+
+          <label for="company">Company Name</label>
+          <input type="text" name="company" value="">
+
+          <label for="title">What is your Title?</label>
+          <input type="text" name="title" value="">
+
+          <p class="desktop">*Required Field</p>
+
+          <button class="request-demo-modal-submit" type="button" name="button">REQUEST A DEMO</button>
+        </form>
+
+      </div>
+      <div class="request-demo-modal-screen desktop js-request-demo-modal-close"></div>
+      <div class="request-demo-modal-screen mobile"></div>
+    </div>
+
+    <div class="resources-main-container">
+
+      <div class="resources-question-container">
+        <div class="resources-question-title">
+          <div>
+            Got a Question?
+          </div>
+          <div>
+            We Have You Covered.
+          </div>
+
+        </div>
+        <div class="resources-question-icons">
+          <div class="resources-question-icon-container">
+            <div class="resources-question-icon-title">
+              Phone
+            </div>
+            <div class="resources-question-icon">
+              <img src="assets/images/resources/collaboration.svg" alt="">
+            </div>
+            <div class="resources-question-icon-text">
+              <div>
+                Give us a call at
+              </div>
+              <div>
+                (646) 712-0074
+              </div>
+              <div>
+                We’re available 7 days a week.
+              </div>
+            </div>
+          </div>
+          <div class="resources-question-icon-container">
+            <div class="resources-question-icon-title">
+              Email
+            </div>
+            <div class="resources-question-icon email-ico">
+              <img src="assets/images/resources/email.svg" alt="">
+            </div>
+            <div class="resources-question-icon-text">
+              <div>
+                Send us a note at
+              </div>
+              <div>
+                support@backboneplm.com
+              </div>
+              <div>
+                 and we’ll get back to you as soon as possible.
+              </div>
+            </div>
+          </div>
+          <div class="resources-question-icon-container">
+            <div class="resources-question-icon-title">
+              FAQs
+            </div>
+            <div class="resources-question-icon">
+              <img src="assets/images/resources/faq.svg" alt="">
+            </div>
+            <div class="resources-question-icon-text">
+              <div>
+                Visit our  FAQs
+                to find answers to your questions, from pre-sales
+                to troubleshooting.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources-hero-title">
+        Top Support Guides
+      </div>
+
+      <div class="resources-support-container">
+        <div class="resources-support-img">
+          <img src="assets/images/resources/keyboard.svg" alt="">
+          </div>
+          <div class="resources-support-section">
+            <div class="resources-support-title">
+              Before You Buy
+            </div>
+            <div class="resources-support-subtitle">
+              Learn more about Backbone, how it’s used, and how it can improve your workflow.
+            </div>
+            <div class="resources-support-links">
+              <div class="current-openings different-q">
+                <p>How is Backbone different from other PLMs?</p>
+                <img src="assets/images/link_ico.svg">
+              </div>
+
+              <div class="current-openings existing-q">
+                <p>Can I integrate Backbone into my existing workflow?</p>
+                <img src="assets/images/link_ico.svg">
+              </div>
+
+              <div class="current-openings setup-q">
+                <p>How quickly can I get setup on Backbone?</p>
+                <img src="assets/images/link_ico.svg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="resources-getting-started-container">
+        <div class="resources-getting-started-img">
+          <img src="assets/images/resources/mug.svg" alt="">
+        </div>
+        <div class="resources-getting-started-section">
+          <div class="resources-getting-started-title">
+            Getting Started
+          </div>
+          <div class="resources-getting-started-subtitle">
+            Need guidance setting up Backbone? We’ve got you covered with tips and tricks to succeed.
+          </div>
+          <div class="resources-getting-started-links">
+            <div class="current-openings manage-users">
+              <p>How do I manage users?</p>
+              <img src="assets/images/link_ico.svg">
+            </div>
+
+            <div class="current-openings size-spec">
+              <p>How do I used the size spec preset?</p>
+              <img src="assets/images/link_ico.svg">
+            </div>
+
+            <div class="current-openings generate-report">
+              <p>How to generate a report</p>
+              <img src="assets/images/link_ico.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="resources-troubleshooting-container">
+        <div class="resources-troubleshooting-img">
+          <img src="assets/images/resources/hand.svg" alt="">
+        </div>
+        <div class="resources-troubleshooting-section">
+          <div class="resources-troubleshooting-title">
+            Troubleshooting
+          </div>
+          <div class="resources-troubleshooting-subtitle">
+            Running into issues you think we should know about? We love feedback. Here are some options to get to a solution.
+          </div>
+          <div class="resources-troubleshooting-links">
+            <div class="current-openings technical-q">
+              <p>Submit a technical request ticket</p>
+              <img src="assets/images/link_ico.svg">
+            </div>
+
+            <div class="current-openings technical-q">
+              <p>Contact a support representative</p>
+              <img src="assets/images/link_ico.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="faq-footer more-pad">
+        <div class="faq-footer-title">
+          Don’t See What You Need?
+        </div>
+        <div class="faq-contact-us">
+          CONTACT US
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <div class="footer-logo-links-container">
+        <div class="footer-logo">
+          <img src="assets/images/logo.svg">
+        </div>
+
+        <div class="footer-links-container">
+          <div class="footer-links-col-1">
+            <a href="#">About Us</a>
+            <a href="#">Team</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-links-col-2">
+            <a href="#">Resources</a>
+            <a href="#">FAQs</a>
+            <a href="#">Guides</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="footer-links-col-3">
+            <a href="#">Contact</a>
+          </div>
+          <div class="footer-links-col-4">
+            <a href="#">Sign In</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-request-demo mobile js-request-demo-modal-open">
+        REQUEST A DEMO
+      </div>
+
+      <div class="footer-social-links-container desktop">
+        <div class="footer-terms">
+          <a href="#">Terms & Privacy</a>
+        </div>
+
+        <div class="footer-social-icons">
+          <img src="assets/images/facebook_ico.svg">
+          <img src="assets/images/instagram_ico.svg">
+          <img src="assets/images/twitter_ico.svg">
+          <img src="assets/images/linkedin_ico.svg">
+          <img src="assets/images/m_ico.svg">
+          <img src="assets/images/peace_ico.svg">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

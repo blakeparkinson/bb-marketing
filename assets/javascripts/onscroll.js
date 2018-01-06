@@ -1,0 +1,4 @@
+
+$(function() {
+      $('.lazy').Lazy();
+});
