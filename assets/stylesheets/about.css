@@ -327,6 +327,16 @@
   margin-top: 20px;
 }
 
+.about-advisors-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.advisor {
+  flex-direction: row;
+  width: 650px;
+}
+
 @media only screen and (min-width: 768px) {
 
   .about-what-is-container {
@@ -419,6 +429,12 @@
 
   .about-join-container {
     padding-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-advisors-container {
+    margin-left: 10%;
   }
 }
 
