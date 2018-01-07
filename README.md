@@ -17,8 +17,8 @@ About Us:
 * Spacing between text and computer, computer needs to drop below text (done)
 * Use our instagram feed here (done)
 * Make images individual and text html so we can edit and add titles and a bio (done)
-* Update Advisors list to be individual images with titles.  Font should be updated to match copy. (don)
-* This should work as a carousel
+* Update Advisors list to be individual images with titles.  Font should be updated to match copy. (done)
+* This should work as a carousel (done)
 * Update quote (see Sketch file) 
 * Add links to Matthew & Andrew's linkedIn:
 ```https://www.linkedin.com/in/andrew-klein-83268a33/```
