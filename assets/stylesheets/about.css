@@ -315,6 +315,54 @@
   align-items: flex-start;
 }
 
+.about-meet-team-image {
+    
+}
+
+.team-image-container {
+  height: 350px;
+  width: 200px;
+  margin-right: 10px;
+  display: block;
+}
+
+.image {
+  height: 185px;
+  width: 200px;
+}
+
+.target-image {
+  height: auto;
+  width: 100%;
+}
+
+.name-container {
+  height: 100px;
+  width: 100%;
+  background-color: #00B8FF;
+  color: #F0F3F5;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  margin-top: 20px;
+}
+
+.about-advisors-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.advisor {
+  flex-direction: row;
+  width: 650px;
+}
+
 @media only screen and (min-width: 768px) {
 
   .about-what-is-container {
@@ -407,6 +455,12 @@
 
   .about-join-container {
     padding-top: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-advisors-container {
+    margin-left: 10%;
   }
 }
 
