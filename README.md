@@ -15,7 +15,7 @@ Resources:
 About Us:
 * Spacing between text and computer, computer needs to drop below text (done)
 * Make images individual and text html so we can edit and add titles and a bio 
-* Use our instagram feed here 
+* Use our instagram feed here (done)
 * This should work as a carousel
 * Update quote (see Sketch file)
 * Add links to Matthew & Andrew's linkedIn:

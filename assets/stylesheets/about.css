@@ -23,6 +23,30 @@
   width: 80%;
 }
 
+.insta-grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  max-width:50%;
+}
+
+  @media only screen and (max-width: 768px) {
+    
+    .insta-grid{
+      display: none;
+    }
+    .about-join-text-section{
+      max-width: none !important;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .insta-grid .item-row {
+      width: 50% !important;
+    }
+  }
+
 
 .about-what-is-container,
 .about-what-is-text-section,
@@ -169,7 +193,9 @@
 .about-join-text-section {
   align-items: flex-start;
   width: 80vw;
-  flex: 0.4;
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  max-width: 40%;
 }
 
 .about-join-title {
