@@ -14,7 +14,7 @@
 
 .about-header-title {
   font-size: 72px;
-  width: 600px;
+  width: 100%;
   text-align: center;
   padding-bottom: 190px;
 }
@@ -123,6 +123,28 @@
   padding-bottom: 50px;
 }
 
+.press-carousel .slick-next{
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/link_ico_black_right.svg');
+  right: -40px;
+}
+
+.press-carousel .slick-prev {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url('../images/link_ico_black_left.svg');
+  left: -30px;
+}
+
+.press-carousel .slick-next:before{
+  display: none;
+}
+
+.press-carousel .slick-prev:before {
+  display: none;
+}
+
 .about-meet-team-subtitle {
   font-size: 24px;
   text-align: center;
@@ -219,9 +241,12 @@
 .about-join-quote {
   padding-bottom: 25px;
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 1.8; 
 }
 
+.press-carousel{
+  width: 50vw !important;
+}
 .about-join-quote-author {
   align-items: flex-start;
   font-size: 13px;
@@ -264,10 +289,10 @@
 }
 
 .about-press-subtitle {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
+  line-height: 1.6;
   width: 50%;
-  padding-bottom: 30px;
 }
 
 .view-article {
@@ -277,13 +302,14 @@
 
 .about-press-lamp {
   position: absolute;
-  right: 0;
+  right: 0px;
   top: 100px;
   z-index: -1;
 }
 
 .about-press-container {
   position: relative;
+  width: 100%;
 }
 
 
@@ -313,6 +339,7 @@
 
 .about-cover-text-section {
   align-items: flex-start;
+  margin-left:5%;
 }
 
 .about-meet-team-image {
@@ -356,11 +383,13 @@
 .about-advisors-container {
   display: flex;
   flex-direction: column;
+  width:100%;
 }
 
 .advisor {
   flex-direction: row;
-  width: 650px;
+  width: 100%;
+  margin-left: 10vw;
 }
 
 @media only screen and (min-width: 768px) {
@@ -455,12 +484,6 @@
 
   .about-join-container {
     padding-top: 200px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .about-advisors-container {
-    margin-left: 10%;
   }
 }
 
