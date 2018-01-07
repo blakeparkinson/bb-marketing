@@ -20,12 +20,12 @@ About Us:
 * Update Advisors list to be individual images with titles.  Font should be updated to match copy. (done)
 * This should work as a carousel (done)
 * Update quote (see Sketch file) 
-* Add links to Matthew & Andrew's linkedIn:
+* Add links to Matthew & Andrew's linkedIn:(done)
 ```https://www.linkedin.com/in/andrew-klein-83268a33/```
 ```https://www.linkedin.com/in/matthew-klein-22216558/```
 
 FAQs:
-* when clicking on questions below the fold the answer should float to the bottom near the question (right now user has to * scroll to the top to see the answer)
+* when clicking on questions below the fold the answer should float to the bottom near the question (right now user has to * scroll to the top to see the answer) (done)
 * additional line height for answers (looks very squished) (done)
 * Please remove the last 2 questions (privacy policy and security) (done)
 

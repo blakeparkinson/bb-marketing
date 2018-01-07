@@ -85,6 +85,7 @@ $(function() {
 
           $(this).find(".faq-single-question-answer").css("display","flex");
           $(this).find(".faq-question-tri").css("transform", "rotate(-90deg)");
+          
         });
         el.append(currentDiv);
       }
@@ -121,10 +122,18 @@ $(function() {
 
           $(".faq-single-question-title-desktop").removeClass("selected-question");
 
-          $(".faq-answer-desktop-title").text(question);
+          var title = $(".faq-answer-desktop-title");
+          title.text(question);
+
           $(".faq-answer-desktop-text").text(answer);
 
           $(this).addClass("selected-question");
+          if (document.documentElement.scrollTop > (title[0].offsetTop - title[0].offsetHeight)){
+
+            document.body.scrollTop = title[0].offsetTop - title[0].offsetHeight;
+            document.documentElement.scrollTop = title[0].offsetTop - title[0].offsetHeight;
+
+          }
 
         });
         el.append(currentDiv);
