@@ -8,17 +8,18 @@ Home:
 * Exceptional results (see updated copy in Sketch file) (done)
 
 Resources:
+* Top 3 icons need to be updated to be responsive. Also, are these the correct colors for these icons? (Added by Paul)
 * Images appear pixelated (they are the provided svgs.nothing to do here)
 * Keyboard needs to scale down (done)
 * add faint line (done)
 
 About Us:
 * Spacing between text and computer, computer needs to drop below text (done)
-o we can edit and add titles and a bio 
 * Use our instagram feed here (done)
 * Make images individual and text html so we can edit and add titles and a bio (done)
+* Update Advisors list to be individual images with titles.  Font should be updated to match copy. (don)
 * This should work as a carousel
-* Update quote (see Sketch file)
+* Update quote (see Sketch file) 
 * Add links to Matthew & Andrew's linkedIn:
 ```https://www.linkedin.com/in/andrew-klein-83268a33/```
 ```https://www.linkedin.com/in/matthew-klein-22216558/```
