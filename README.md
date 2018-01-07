@@ -25,8 +25,8 @@ o we can edit and add titles and a bio
 
 FAQs:
 * when clicking on questions below the fold the answer should float to the bottom near the question (right now user has to * scroll to the top to see the answer)
-* additional line height for answers (looks very squished)
-* Please remove the last 2 questions (privacy policy and security)
+* additional line height for answers (looks very squished) (done)
+* Please remove the last 2 questions (privacy policy and security) (done)
 
 General
 * Consistency in spacing throughout.

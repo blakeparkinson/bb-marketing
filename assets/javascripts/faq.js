@@ -41,12 +41,12 @@ const faqList = [
   ["What kind of files are compatible?",
    "Backbone allows for the following files to be uploaded into our system: AI, PSD, PDF, JPEG, PNG, CAD, XLS, 3D file types, movie files, we are constantly adding compatibility with new file types."
   ],
-  ["What are Backbone’s policies regarding privacy?",
-   "Please view our privacy policy here."
-  ],
-  ["What are Backbone’s policies regarding security?",
-   "TBD"
-  ],
+  // [ "What are Backbone’s policies regarding privacy?",
+  //   "Please view our privacy policy here."
+  // ],
+  // [ "What are Backbone’s policies regarding security?",
+  //   "TBD"
+  // ],
   // ["",
   //  ""
   // ],
