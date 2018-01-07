@@ -3,7 +3,7 @@ Home:
 * Make triangles parallax, move in to screen on scroll and try to have them as they appear in the sketch file 
 * Adding correct links everywhere
 * Some text seems to be way too close the edge of screen
-* Updated logos (see Sketch Files, would like to have them animate in row by row)
+* Updated logos (see Sketch Files, would like to have them animate in row by row) (done)
 * Exceptional results (see updated copy in Sketch file)
 
 Resources:
