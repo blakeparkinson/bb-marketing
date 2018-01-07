@@ -43,6 +43,10 @@
   position: absolute;
 } */
 
+.computer-image {
+  margin-top: 7%;
+}
+
 .about-what-is-title {
   font-size: 24px;
   padding-top: 40px;
@@ -287,7 +291,6 @@
 
 @media only screen and (min-width: 768px) {
 
-
   .about-what-is-container {
     justify-content: center;
     align-items: flex-start;
@@ -379,4 +382,21 @@
   .about-join-container {
     padding-top: 200px;
   }
+}
+
+
+@media only screen and (max-width: 1150px) {
+  
+  .computer-image {
+    margin-top: 15%;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  .computer-image {
+    margin-top: 40%
+  }
+
 }

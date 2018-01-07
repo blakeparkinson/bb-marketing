@@ -22,7 +22,7 @@
 
 .faq-footer-title {
   font-size: 24px;
-  width: 200px;
+  width: 100%;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -133,6 +133,7 @@
   flex-direction: row-reverse;
   width: 100%;
   justify-content: space-between;
+  border-bottom: 1px solid #F0F3F5;
 }
 
 .resources-troubleshooting-links {
@@ -198,6 +199,7 @@
   position: absolute;
   right: 0;
   z-index: -1;
+  max-width: 50%;
 }
 
 .resources-support-section {
@@ -236,8 +238,11 @@
   padding-top: 155px
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 
+  .resources-support-img {
+    display: none;
+  }
 
   .faq-footer-title {
     font-size: 42px;
@@ -245,4 +250,20 @@
     padding-bottom: 50px;
   }
 
+}
+
+@media only screen and (max-width: 850px) {
+
+  .resources-troubleshooting-container {
+    border-bottom: none;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+  .resources-support-img {
+    max-width: 40%;
+  }
+  
 }

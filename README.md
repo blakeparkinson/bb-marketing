@@ -1,18 +1,19 @@
 Home: 
-* All images should stick to the sides on all screens sizes 
-* Make triangles parallax, move in to screen on scroll and try to have them as they appear in the sketch file 
-* Adding correct links everywhere
-* Some text seems to be way too close the edge of screen
+
+* All images should stick to the sides on all screens sizes (done)
+* Make triangles parallax, move in to screen on scroll and try to have them as they appear in the sketch file (need clarification)
+* Adding correct links everywhere (done)
+* Some text seems to be way too close the edge of screen (done)
 * Updated logos (see Sketch Files, would like to have them animate in row by row) (done)
-* Exceptional results (see updated copy in Sketch file)
+* Exceptional results (see updated copy in Sketch file) (done)
 
 Resources:
-* Images appear pixelated
-* Keyboard needs to scale down
-* add faint line
+* Images appear pixelated (they are the provided svgs.nothing to do here)
+* Keyboard needs to scale down (done)
+* add faint line (done)
 
 About Us:
-* Spacing between text and computer, computer needs to drop below text 
+* Spacing between text and computer, computer needs to drop below text (done)
 * Make images individual and text html so we can edit and add titles and a bio 
 * Use our instagram feed here 
 * This should work as a carousel
