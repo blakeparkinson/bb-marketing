@@ -60,14 +60,22 @@
 }
 
 .brand-row{
-    place-content: center space-around;
-    align-items: center;
     width: 50%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
+    height: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+    display: flex;
+    max-height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .brand-row img{
   flex: 1 1 100%;
+  max-width: 25%;
+  height: 50px;
 }
 
 .hero-svg-1-2 {
