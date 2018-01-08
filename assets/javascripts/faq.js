@@ -63,20 +63,17 @@ $(function() {
       const el = $('.faq-question-list');
       el.empty();
 
-      for (let i = 0; i < faqList.length; i++) {
-        var currentDiv = $(`<div class="faq-single-question-container">
-          <div class="faq-single-question-title">
-            <div class="faq-question-tri">
-              <img src="assets/images/faq_tri.svg">
-            </div>
-            <div class="faq-question-title">
-              ${faqList[i][0]}
-            </div>
-          </div>
-          <div class="faq-single-question-answer">
-            ${faqList[i][1]}
-          </div>
-        </div>`);
+      for (var i = 0; i < faqList.length; i++) {
+
+        var div = ['<div class="faq-single-question-container">',
+                      '<div class="faq-single-question-title">',
+                      '<div class="faq-question-tri">',
+                      '<img src="assets/images/faq_tri.svg">',
+                      '<div class="faq-question-title">' + faqList[i][0] + '</div>',
+                      '<div class="faq-single-question-answer">' + faqList[i][1] + '</div>',
+                      '</div>'].join('');
+        
+        var currentDiv = $(div);
 
         currentDiv.click(function(e) {
           $(".faq-single-question-answer").css("display","none");
@@ -96,15 +93,13 @@ $(function() {
       const el = $('.faq-question-list-desktop');
       el.empty();
 
-      for (let i = 0; i < faqList.length; i++) {
-        var currentDiv = $(
-          `<div class="faq-single-question-title-desktop">
-            ${faqList[i][0]}
-            <div class="faq-single-anwer-title-desktop">
-              ${faqList[i][1]}
-            </div>
-          </div>`
-          );
+      for (var i = 0; i < faqList.length; i++) {
+
+        var div = ['<div class="faq-single-question-title-desktop">' + faqList[i][0],
+                  '<div class="faq-single-anwer-title-desktop">' + faqList[i][1 + '</div>'],
+                  '</div>'].join('');
+
+        var currentDiv = $(div);
 
 
 
